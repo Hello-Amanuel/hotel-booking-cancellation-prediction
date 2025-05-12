@@ -1,45 +1,55 @@
-# Predicting Hotel Booking Cancellations Using Machine Learning
+# 🔍 Predicting Hotel Booking Cancellations Using Machine Learning
 
-## 📌 Project Overview
+## 📘 Project Overview
 
-This project aims to build a supervised machine learning model to predict whether a hotel booking will be canceled or not. By analyzing booking details, guest behavior, and timing data, the model provides actionable insights to help hotel managers anticipate cancellations and optimize resource planning (e.g., staffing, room availability, revenue management).
+This project focuses on developing a **supervised machine learning model** that predicts whether a hotel booking will be canceled or not. By analyzing various booking attributes such as guest behavior, lead time, and reservation details, the model generates actionable insights. These insights help hotel managers make informed decisions, minimize revenue loss, and enhance operational efficiency — including staff allocation, inventory planning, and pricing strategies.
 
-## 🎯 Objectives
+## 🎯 Project Objectives
 
-- Predict booking cancellations using historical data
-- Identify key factors influencing cancellations
-- Enable hotels to proactively manage operations and reduce revenue loss
+- Develop a predictive model to **classify bookings as canceled or not**
+- Identify **key factors** and behavioral patterns that influence cancellations
+- Support hotel managers in **proactively managing cancellations**
+- Help reduce financial loss and **optimize resource planning**
 
-## 🧠 Key Concepts
+## 🧠 Key Concepts (ML Pipeline Order)
 
-- **Supervised Learning**
-- **Classification Modeling**
-- **Feature Engineering**
-- **Exploratory Data Analysis (EDA)**
-- **Data Visualization**
+1. **Exploratory Data Analysis (EDA)**  
+2. **Data Cleaning & Preprocessing**  
+3. **Feature Engineering & Selection**  
+4. **Supervised Machine Learning**  
+5. **Classification Algorithms**  
+6. **Model Evaluation (ROC, Accuracy, Precision, Recall)**
 
 ## 🛠️ Tools & Technologies
 
-- **Programming**: Python (Jupyter Notebook)
-- **Libraries**: 
-  - Data handling: `pandas`, `NumPy`
-  - Modeling: `scikit-learn`
-  - Visualization: `matplotlib`, `seaborn`
-- **Deployment**: Streamlit
+- **Programming Language**: Python (Jupyter Notebook)
+- **Libraries**:  
+  - **Data Handling**: `pandas`, `NumPy`  
+  - **Modeling**: `scikit-learn` (Logistic Regression, Random Forest, etc.)  
+  - **Visualization**: `matplotlib`, `seaborn`
+- **Model Deployment**: `Streamlit` – for building an interactive web app that allows real-time booking predictions
 
-## 📊 Dataset
+## 📊 Dataset Description
 
 - **Name**: Hotel Booking Demand Dataset  
 - **Source**: [Kaggle – Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)  
-- **Description**: Contains booking data from a city hotel and a resort hotel, including customer details, booking behavior, lead times, special requests, and more.
+- **Details**:  
+  The dataset includes over 30 features from both **city hotels** and **resort hotels**, such as:
+  - Booking lead time
+  - Customer demographics
+  - Special requests
+  - Deposit type
+  - Stay duration
+  - Meal preferences
+  - Cancellation status (target variable)
 
-## 📈 Expected Outcomes
+## 📈 Project Outcomes
 
-- Trained classification model to predict cancellations
-- Visual insights into patterns of cancellations
-- Feature importance rankings to guide hotel strategies
-- An interactive frontend to input booking details and get predictions
+- A trained and tested **classification model** to predict cancellations
+- **Visual data insights** uncovering key trends (e.g., how lead time or customer type affects cancellations)
+- **Feature importance rankings** to help hotels prioritize key operational factors
+- An **interactive Streamlit app** to test booking scenarios and receive instant cancellation predictions
 
 ---
 
-> *By Amanuel Agajjie Wasihun*
+> 👨‍💻 *Developed by Amanuel Agajjie Wasihun*
